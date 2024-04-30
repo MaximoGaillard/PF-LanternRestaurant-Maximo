@@ -1,7 +1,4 @@
-*{
-    background-color: #ffe4c4;
-    
-}
+
 
 
 
@@ -20,21 +17,26 @@
 
 /* index.html */
 /* header */
-body{
-    background-color: #ffe4c4;
-}
+
 .encabezado{
     background-image: url('../assets/imagen\ encabezado.jpeg');
     background-position: center;
     background-size: cover;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
+    align-items: stretch;
 }
 .encabezado img {
     width: 150px;
 }
-.encabezado nav{
+.encabezado__nav{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+}
+
+/*.encabezado nav{
     font-size: 20px;
 }
 .lista-one{
@@ -43,16 +45,16 @@ body{
 }
 .lista-one li{
     margin-right: 10px;
-}
+}*/
 /* main */
-.h1-menu{
+.container--h1{
     text-align: center;
     margin-top: 40px;
     color: brown;
     font-family: fantasy;
     font-size: xxx-large;
 }
-.imagenes {
+.container__imagenes {
     text-align: center;
     margin: 30px;
     display: flex;
@@ -60,14 +62,14 @@ body{
     justify-content: space-around;
     
 }
-.imagenes p {
+.container__imagenes p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     font-style: italic;
     font-weight: bold;
     text-decoration: underline;
 }
-.imagenes button {
+.container__imagenes button {
     background-color: #8a2be2;
     color: #ffffff;
     border-radius: 10px;
@@ -120,7 +122,7 @@ body{
     padding: 16px;
     list-style-type: none;
 }
-.lista{
+.pie-pagina--lista{
     display: flex;
     flex-wrap: wrap;
 }
@@ -131,28 +133,36 @@ body{
 
 
 /* eventos.html */
+/* header */
 .titulo-eventos{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     color: #8b0000;
     font-family: fantasy;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
 }
-.imagenes-eventos{
+.titulo-eventos h1{
+    border: double;
+}
+/* main */
+.container__imagenes-eventos{
     text-align: center;
     margin: 30px;
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
+    align-items: flex-start;
 }
-.imagenes-eventos p{
+.container__imagenes-eventos p{
+    margin: 10px;
     font-family:"Jersey 10", sans-serif;
     text-decoration: solid;
+    font-size: 100%;
 }
-.imagen img{
+.container__imagenes-eventos img{
     width: 100%;
 }
 .imagen{
@@ -187,7 +197,9 @@ body{
     background-color: #ffe4c4;
 }
 .listas{
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
 }
 .listas h1{
     font-style: oblique;
