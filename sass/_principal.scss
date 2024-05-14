@@ -2,9 +2,7 @@
 .container--h1{
     text-align: center;
     margin-top: 40px;
-    color: brown;
-    font-family: fantasy;
-    font-size: xxx-large;
+    @include titulos(#a52a2a, xxx-large, fantasy);
 }
 .container__imagenes {
     text-align: center;
@@ -13,8 +11,7 @@
     
 }
 .container__imagenes p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    @include titulos(none, 18px, 'Times New Roman');
     font-style: italic;
     font-weight: bold;
     text-decoration: underline;
@@ -87,26 +84,22 @@
     margin: 100px;
     &__one{
         h1{
-            font-style: oblique;
-            text-decoration: underline;
+            @include listas;
         }
     }
     &__two{
         h2{
-            font-style: oblique;
-            text-decoration: underline;
+            @include listas;
         }
     }
     &__three{
         h3{
-            font-style: oblique;
-            text-decoration: underline;
+            @include listas;
         }
     }
     &__four{
         h4{
-            font-style: oblique;
-            text-decoration: underline;
+            @include listas;
         }
     }
 }

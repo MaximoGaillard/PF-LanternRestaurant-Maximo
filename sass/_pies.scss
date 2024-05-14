@@ -13,8 +13,7 @@
             padding: 16px;
             list-style-type: none;
                 &__lista{
-                    display: flex;
-                    flex-wrap: wrap;
+                    @include display(none, wrap, none);
                     list-style: none;  
                     li{
                         margin-right: 10px; 
@@ -27,9 +26,7 @@
 /* footer nosotros */
 .parrafo{
     justify-content: center;
-    color: #000000;
-    font-size: 20px;
-    font-family: cursive;
+    @include titulos(#000000, 20px, cursive);
     border: double;
     border-color: #ff0000;
     margin: 20px;
@@ -42,14 +39,11 @@
     flex-direction: column;
     justify-content: center;
         &__primer{
-            font-size: 70px;
-            color: #008b8b;
-            font-family: "Dancing Script", cursive;
+            @include titulos(#008b8b, 70px, "Dancing Script");
         }
         &__segundo{
-            font-size: 40px;
-            color: #2f4f4f;
-            font-family: "Playfair Display", serif; 
+            @include titulos(#2f4f4f, 40px, "Playfair Display"); 
+            margin-top: 40px;   
         }
 }
 

@@ -4,3 +4,13 @@
     flex-wrap: $fw;
     flex-flow: $fflow;
 }
+@mixin titulos($c, $fs, $ff){
+    color: $c;
+    font-size: $fs;
+    font-family: $ff;
+}
+
+@mixin listas{
+    font-style: oblique;
+    text-decoration: underline;
+}
