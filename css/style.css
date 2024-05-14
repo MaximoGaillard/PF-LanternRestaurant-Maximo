@@ -18,23 +18,7 @@
 /* index.html */
 /* header */
 
-.encabezado{
-    background-image: url('../assets/imagen\ encabezado.jpeg');
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-}
-.encabezado img {
-    width: 150px;
-}
-.encabezado__nav{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 30px;
-    text-decoration: underline;
-    color: white;
-}
+
 
 /*.encabezado nav{
     font-size: 20px;
@@ -46,176 +30,26 @@
 .lista-one li{
     margin-right: 10px;
 }*/
-/* main */
-.container--h1{
-    text-align: center;
-    margin-top: 40px;
-    color: brown;
-    font-family: fantasy;
-    font-size: xxx-large;
-}
-.container__imagenes {
-    text-align: center;
-    margin: 30px;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    
-}
-.container__imagenes p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: bold;
-    text-decoration: underline;
-}
-.container__imagenes button {
-    background-color: #8a2be2;
-    color: #ffffff;
-    border-radius: 10px;
-}
-.img{
-    border-radius: 10px;
-    border-style: solid;
-    width: 220px;
-    margin: 50px;
-    padding: 10px;
-}
-.img img{
-    width: 100%;
-}
-/* aside */
-.nos-historia{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.nos-historia h1{
-    font-size: 40px;
-    font-family: fantasy;
-    color: chocolate;
-}
-.nos-historia p{
-    font-size: x-large;
-    font-family: sans-serif;
-    text-align: center;
-}
-.nos-historia button{
-    color: #000000;
-    background-color: #75b6f3;
-}
-/* footer */
-.pie-pagina{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.pie-pagina img {
-    text-align: left;
-    width: 150px;
-}
-.pie-pagina nav{
-    text-align: right;
-    color: #000000;
-    font-size: 20px;
-    padding: 16px;
-    list-style-type: none;
-}
-.pie-pagina--lista{
-    display: flex;
-    flex-wrap: wrap;
-}
-.lista li{
-    list-style-type: none;
-    margin-right: 10px;
-}
+
 
 
 /* eventos.html */
 /* header */
-.titulo-eventos{
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    color: #8b0000;
-    font-family: fantasy;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-.titulo-eventos h1{
-    border: double;
-}
+
 /* main */
-.container__imagenes-eventos{
-    text-align: center;
-    margin: 30px;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-.container__imagenes-eventos p{
-    margin: 10px;
-    font-family:"Jersey 10", sans-serif;
-    text-decoration: solid;
-    font-size: 100%;
-}
-.container__imagenes-eventos img{
-    width: 100%;
-}
-.imagen{
-    border-radius: 10px;
-    border-style: solid;
-    width: 220px;
-    margin: 50px;
-    padding: 10px;
-}
+
 
 /* nosotros.html*/
-.titulo{
-    justify-content: center;
-    color: #a52a2a;
 
-}
-.imagenes-nosotros{
-    justify-content: center;
 
-}
-.parrafo{
-    justify-content: center;
-    color: #000000;
-    font-size: 20px;
-    font-family: cursive;
-}
+
 
 
 /* menu.html */
-.head-menu{
-    justify-content: center;
-    background-color: #ffe4c4;
-}
-.listas{
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-}
-.listas h1{
-    font-style: oblique;
-    text-decoration: underline;
-}
+
+
 
 
 /* contacto.html */
-.head-contact{
-    color: #8b0000;
-    font-family: fantasy;
-}
-.menu-contact{
-    color: #000000;
-    font-style: oblique;
-    text-decoration: underline;
-}
 
 

@@ -1,0 +1,18 @@
+/* aside index */
+.nos-historia{
+    @include display(center,wrap,none);
+    &__titulo{
+        font-size: 40px;
+        font-family: fantasy;
+        color: chocolate;
+    }
+    &__parrafo{
+        font-size: x-large;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    &__button{
+        color: #000000;
+        background-color: #75b6f3;
+    }
+}

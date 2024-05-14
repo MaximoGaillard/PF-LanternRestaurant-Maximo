@@ -1,0 +1,63 @@
+/* footer index */
+.pie-pagina{
+    align-items: center;
+    @include display(space-between,wrap,none);
+        &__imagen{
+            text-align: left;
+            width: 150px; 
+        }
+        &__nav{
+            text-align: right;
+            color: #000000;
+            font-size: 20px;
+            padding: 16px;
+            list-style-type: none;
+                &__lista{
+                    display: flex;
+                    flex-wrap: wrap;
+                    list-style: none;  
+                    li{
+                        margin-right: 10px; 
+                    }
+                }  
+        }
+}
+
+
+/* footer nosotros */
+.parrafo{
+    justify-content: center;
+    color: #000000;
+    font-size: 20px;
+    font-family: cursive;
+    border: double;
+    border-color: #ff0000;
+    margin: 20px;
+}
+
+/* footer menu */
+.titulos-footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        &__primer{
+            font-size: 70px;
+            color: #008b8b;
+            font-family: "Dancing Script", cursive;
+        }
+        &__segundo{
+            font-size: 40px;
+            color: #2f4f4f;
+            font-family: "Playfair Display", serif; 
+        }
+}
+
+
+/* footer contacto */
+ .lista-contacto__ul{   
+    margin-top: 30px;
+    font-size: 25px;
+    color: #d24848;
+    @include display(space-around,wrap,none);
+}

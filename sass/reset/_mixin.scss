@@ -1,0 +1,6 @@
+@mixin display($jc, $fw, $fflow){
+    display: flex;
+    justify-content: $jc;
+    flex-wrap: $fw;
+    flex-flow: $fflow;
+}
