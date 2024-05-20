@@ -160,21 +160,21 @@
   align-items: stretch;
   margin: 100px;
 }
-.listas__one h1 {
-  font-style: oblique;
-  text-decoration: underline;
+.listas__one__button {
+  background-color: #7e92dd;
+  color: #ffffff;
 }
-.listas__two h2 {
-  font-style: oblique;
-  text-decoration: underline;
+.listas__two__button {
+  background-color: #dc143c;
+  color: #ffffff;
 }
-.listas__three h3 {
-  font-style: oblique;
-  text-decoration: underline;
+.listas__three__button {
+  background-color: #ffd700;
+  color: #ffffff;
 }
-.listas__four h4 {
-  font-style: oblique;
-  text-decoration: underline;
+.listas__four__button {
+  background-color: #228b22;
+  color: #ffffff;
 }
 
 /* main contacto */
@@ -223,21 +223,21 @@
   text-align: left;
   width: 150px;
 }
-.pie-pagina__nav {
+.pie-pagina__article {
   text-align: right;
   color: #000000;
   font-size: 20px;
   padding: 16px;
   list-style-type: none;
 }
-.pie-pagina__nav__lista {
+.pie-pagina__article__lista {
   display: flex;
   justify-content: none;
   flex-wrap: wrap;
   flex-flow: none;
   list-style: none;
 }
-.pie-pagina__nav__lista li {
+.pie-pagina__article__lista li {
   margin-right: 10px;
 }
 
