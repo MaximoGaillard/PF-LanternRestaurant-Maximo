@@ -4,61 +4,75 @@
     margin-top: 40px;
     @include titulos(#a52a2a, xxx-large, fantasy);
 }
-.container__imagenes {
+.imagenes{
     text-align: center;
     margin: 30px;
     @include display(space-around,wrap,none);
-    
+    &__img{
+        border-radius: 10px;
+        border-style: solid;
+        width: 220px;
+        margin: 50px;
+        padding: 10px;
+        p{
+            @include titulos(none, 18px, 'Times New Roman');
+            font-style: italic;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        button{
+            background-color: #8a2be2;
+            color: #ffffff;
+            border-radius: 10px;
+        }
+        img{
+            width: 100%;
+        }
+    }
 }
-.container__imagenes p {
-    @include titulos(none, 18px, 'Times New Roman');
-    font-style: italic;
-    font-weight: bold;
-    text-decoration: underline;
-}
-.container__imagenes button {
-    background-color: #8a2be2;
-    color: #ffffff;
-    border-radius: 10px;
-}
-.img{
-    border-radius: 10px;
-    border-style: solid;
-    width: 220px;
-    margin: 50px;
-    padding: 10px;
-}
-.img img{
-    width: 100%;
-}
-
 
 /*main eventos*/
-.container__imagenes-eventos{
+.titulo-eventos{
+    text-align: center;
+    @include titulos(#8b0000, none, fantasy);
+    align-items: center;
+    @include display(space-around,wrap,none);
+    h1{
+        border: double;
+    }
+}
+.imagenes-eventos{
     text-align: center;
     margin: 30px;
     @include display(space-around,wrap,none);
     align-items: flex-start;
+    &__imagen{
+        border-radius: 10px;
+        border-style: solid;
+        width: 220px;
+        margin: 50px;
+        padding: 10px;
+        p{
+            margin: 10px;
+            font-family:"Jersey 10", sans-serif;
+            text-decoration: solid;
+            font-size: 100%;
+        }
+        img{
+            width: 100%;
+        }
+    }
 }
-.container__imagenes-eventos p{
-    margin: 10px;
-    font-family:"Jersey 10", sans-serif;
-    text-decoration: solid;
-    font-size: 100%;
-}
-.container__imagenes-eventos img{
-    width: 100%;
-}
-.imagen{
-    border-radius: 10px;
-    border-style: solid;
-    width: 220px;
-    margin: 50px;
-    padding: 10px;
-}
-
 
 /* main nosotros */
+.titulo-nosotros{
+    color: #a52a2a;
+    margin-top: 50px;
+    @include display(center,wrap,none);
+    &__h1{
+        font-size: 50px;
+    }
+}
 .imagenes-nosotros{
     @include display(space-evenly,wrap,none);
     margin-top: 100px;

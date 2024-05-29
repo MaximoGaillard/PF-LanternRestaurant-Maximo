@@ -1,5 +1,4 @@
-/*index.html*/ 
-
+/* header */ 
 .encabezado{
     background-image: url('../assets/imagen\ encabezado.jpeg');
     background-position: center;
@@ -13,41 +12,6 @@
         font-family: "Bebas Neue", sans-serif;
         font-size: 30px;
         text-decoration: underline;
-        color: white;
+        color: #ffffff;
     }
-}
-
-
-
-/* eventos.html */
-.titulo-eventos{
-    text-align: center;
-    @include titulos(#8b0000, none, fantasy);
-    align-items: center;
-    @include display(space-around,wrap,none);
-    h1{
-        border: double;
-    }
-}
-
-/* nosotros.html */
-.titulo{
-    color: #a52a2a;
-    margin-top: 50px;
-    @include display(center,wrap,none);
-    &__h1{
-        font-size: 50px;
-    }
-}
-
-/* menu.html */
-.head-menu{
-    justify-content: center;
-    background-color: #ffe4c4;
-}
-
-/* contacto.html */
-.head-contact{
-    text-align: center;
-    @include titulos(#8b0000, none, fantasy);
 }

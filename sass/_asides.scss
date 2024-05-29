@@ -4,7 +4,7 @@
     &__titulo{
         font-size: 40px;
         font-family: fantasy;
-        color: #d2691e;
+        color: #a52a2a;
     }
     &__parrafo{
         font-size: x-large;
@@ -12,7 +12,55 @@
         text-align: center;
     }
     &__button{
-        color: #000000;
-        background-color: #75b6f3;
+        color: #ffffff;
+        background-color: #8a2be2;
     }
 }
+
+/* aside eventos */
+.accordion{
+    margin-bottom: 50px;
+}
+
+/* aside nosotros */
+.parrafo{
+    justify-content: center;
+    @include titulos(#000000, 20px, cursive);
+    border: double;
+    border-color: #ff0000;
+    margin: 20px;
+}
+
+/* footer menu */
+.titulos-aside {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        &__primer{
+            @include titulos(#008b8b, 70px, "Dancing Script");
+        }
+        &__segundo{
+            @include titulos(#2f4f4f, 40px, "Playfair Display"); 
+            margin-top: 40px;   
+        }
+}
+
+/* footer contacto */
+.lista-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__h1{
+        font-size: 50px;
+        margin-top: 50px;
+        text-align: center;
+        @include titulos(#8b0000, none, fantasy);
+    }
+    &__ul{   
+        margin-top: 30px;
+        font-size: 25px;
+        color: #df731b;
+        @include display(space-around,wrap,none);
+    }
+ }

@@ -22,15 +22,36 @@
 
 <body>
     <div class="container">
-        <header class="titulo-eventos">
-            <h1 class="animate__animated animate__flipInY">Los Diferentes Eventos</h1>
-            <img src="../assets/logo.jpg" alt="logo del restaurante">
+        <header class="encabezado">
+            <img src="../assets/logo.jpg" alt="Logo del restaurante">
+            <nav class="navbar navbar-expand-lg encabezado__nav">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="eventos.html">Eventos</a>
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            <a class="nav-link" href="menu.html">Menu</a>
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </header>
 
         <main>
-            <section class="container">
-                <section class="container__imagenes-eventos row">
-                    <div class="imagen col-lg-3 col-md-6 col-sm-12" data-aos="fade-right" data-aos-offset="300"
+            <div class="container">
+                <section class="titulo-eventos">
+                    <h1 class="animate__animated animate__flipInY">Los Diferentes Eventos</h1>
+                    <img src="../assets/logo.jpg" alt="logo del restaurante">
+                </section>
+                <section class="imagenes-eventos row">
+                    <div class="imagenes-eventos__imagen col-lg-3 col-md-6 col-sm-12" data-aos="fade-right" data-aos-offset="300"
                         data-aos-easing="ease-in-sine">
                         <img src="../assets/musica-eventos.jpg" alt="Imagen de un show">
                         <p>Un poco de musica no viene mal para el cuerpo, come y disfruta de los shows en vivo de bandas
@@ -48,10 +69,10 @@
                         <p>Veni a reirte un rato gracias a los mejores shows de stand-up. </p>
                     </div>
                 </section>
-            </section>
+            </div>
         </main>
 
-        <footer>
+        <aside>
             <div class="container-fluid">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
@@ -119,6 +140,18 @@
                     </div>
                 </div>
             </div>
+        </aside>
+        
+        <footer class="pie-pagina">
+            <img class="pie-pagina__imagen" data-aos="zoom-in-down" src="../assets/logo.jpg" alt="logo del restaurante">
+            <article class="pie-pagina__article">
+                <ul class="pie-pagina__article__lista">
+                    <li><a href="contacto.html">Instagram</a></li>
+                    <li><a href="contacto.html">Twitter</a></li>
+                    <li><a href="contacto.html">Email</a></li>
+                    <li><a href="contacto.html">Telefono</a></li>
+                </ul>
+            </article>
         </footer>
     </div>
 

@@ -19,23 +19,44 @@
 <body>
    
     <div class="container-fluid">
-        <header>
-            <section class="titulo">
-                <h1 class="titulo__h1 animate__animated animate__lightSpeedInLeft">Nuestra Historia</h1>
-            </section>
-            
+        <header class="encabezado">
+            <img src="../assets/logo.jpg" alt="Logo del restaurante">
+            <nav class="navbar navbar-expand-lg encabezado__nav">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="eventos.html">Eventos</a>
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            <a class="nav-link" href="menu.html">Menu</a>
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </header>
+            
+        <main>
+            <section class="titulo-nosotros">
+                <h1 class="titulo-nosotros__h1 animate__animated animate__lightSpeedInLeft">Nuestra Historia</h1>
+            </section>
         
-        <main class="imagenes-nosotros">
-            <div class="imagenes-nosotros__one" data-aos="fade-up" data-aos-duration="3000">
-                <img src="../assets/nosotros-img.jpg" alt="imagen del restaurante">
-            </div>
-            <div class="imagenes-nosotros__two" data-aos="fade-up" data-aos-duration="3000">
-                <img src="../assets/plato-nosotros.jpg" alt="plato del restaurante">
-            </div>
+            <section class="imagenes-nosotros">
+                <div class="imagenes-nosotros__one" data-aos="fade-up" data-aos-duration="3000">
+                    <img src="../assets/nosotros-img.jpg" alt="imagen del restaurante">
+                </div>
+                <div class="imagenes-nosotros__two" data-aos="fade-up" data-aos-duration="3000">
+                    <img src="../assets/plato-nosotros.jpg" alt="plato del restaurante">
+                </div>
+            </section>
         </main>
             
-        <footer class="parrafo">
+        <aside class="parrafo">
             <p>
                 En el año 2019, floreció nuestra historia culinaria. Mi pareja y yo ambos apasionados por la gastronomía decidimos unir fuerzas y dar vida a un sueño compartido. Con un deseo ardiente y una determinación inquebrantable, abrimos las puertas de lo que pronto se convertiría en un refugio gastronómico para los paladares más exigentes.
             </p>
@@ -48,6 +69,18 @@
             <p>
                 Hoy, nuestro restaurante sigue siendo un lugar de encuentro donde la buena comida y la hospitalidad van de la mano. Seguimos comprometidos con nuestra pasión por la gastronomía, ofreciendo experiencias culinarias memorables que perduran en el paladar y en el corazón de quienes nos visitan. Nuestra historia continúa escribiéndose día a día, con la misma ilusión y dedicación que nos impulsaron desde el principio.
             </p>
+        </aside>
+
+        <footer class="pie-pagina">
+            <img class="pie-pagina__imagen" data-aos="zoom-in-down" src="../assets/logo.jpg" alt="logo del restaurante">
+            <article class="pie-pagina__article">
+                <ul class="pie-pagina__article__lista">
+                    <li><a href="contacto.html">Instagram</a></li>
+                    <li><a href="contacto.html">Twitter</a></li>
+                    <li><a href="contacto.html">Email</a></li>
+                    <li><a href="contacto.html">Telefono</a></li>
+                </ul>
+            </article>
         </footer>
     </div>
         
