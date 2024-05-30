@@ -63,7 +63,7 @@
 /*main eventos*/
 .titulo-eventos {
   text-align: center;
-  color: #8b0000;
+  color: #a52a2a;
   font-size: none;
   font-family: fantasy;
   align-items: center;
@@ -136,6 +136,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  flex-flow: none;
   align-items: stretch;
   margin: 100px;
 }
@@ -159,14 +160,15 @@
 /* main contacto */
 .lista-contacto {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: none;
 }
 .lista-contacto__h1 {
   font-size: 50px;
   margin-top: 50px;
   text-align: center;
-  color: #8b0000;
+  color: #a52a2a;
   font-size: none;
   font-family: fantasy;
 }
@@ -174,10 +176,14 @@
   margin-top: 30px;
   font-size: 25px;
   color: #df731b;
+  list-style: none;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   flex-flow: none;
+}
+.lista-contacto__ul li {
+  margin-right: 20px;
 }
 
 /* aside index */
@@ -246,7 +252,7 @@
   margin-top: 30px;
 }
 .menu-contact__mapa h2 {
-  color: #8b0000;
+  color: #a52a2a;
   font-style: oblique;
   text-decoration: underline;
   text-align: center;

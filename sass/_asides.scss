@@ -4,7 +4,7 @@
     &__titulo{
         font-size: 40px;
         font-family: fantasy;
-        color: #a52a2a;
+        color: $color-titulo;
     }
     &__parrafo{
         font-size: x-large;
@@ -12,7 +12,7 @@
         text-align: center;
     }
     &__button{
-        color: #ffffff;
+        color: $cb;
         background-color: #8a2be2;
     }
 }
@@ -52,7 +52,7 @@
         @include display(space-around,wrap,none);
         margin-top: 30px;
         h2{
-            color: #8b0000;
+            color: $color-titulo;
             font-style: oblique;
             text-decoration: underline;
             text-align: center;

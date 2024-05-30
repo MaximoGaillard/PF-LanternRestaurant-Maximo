@@ -2,7 +2,7 @@
 .container--h1{
     text-align: center;
     margin-top: 40px;
-    @include titulos(#a52a2a, xxx-large, fantasy);
+    @include titulos($color-titulo, xxx-large, fantasy);
 }
 .imagenes{
     text-align: center;
@@ -22,7 +22,7 @@
         }
         button{
             background-color: #8a2be2;
-            color: #ffffff;
+            color: $cb;
             border-radius: 10px;
         }
         img{
@@ -34,7 +34,7 @@
 /*main eventos*/
 .titulo-eventos{
     text-align: center;
-    @include titulos(#8b0000, none, fantasy);
+    @include titulos($color-titulo, none, fantasy);
     align-items: center;
     @include display(space-around,wrap,none);
     h1{
@@ -67,7 +67,7 @@
 
 /* main nosotros */
 .titulo-nosotros{
-    color: #a52a2a;
+    color: $color-titulo;
     margin-top: 50px;
     @include display(center,wrap,none);
     &__h1{
@@ -93,52 +93,52 @@
 
 /* main menu */
 .listas{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    @include display(space-around,wrap,none);
     align-items: stretch;
     margin: 100px;
     &__one{
         &__button{
             background-color: #7e92dd;
-            color: #ffffff
+            color: $cb;
         }
     }
     &__two{
         &__button{
             background-color: #dc143c;
-            color: #ffffff;
+            color: $cb;
         }
     }
     &__three{
         &__button{
             background-color: #ffd700;
-            color: #ffffff;
+            color: $cb;
         }
     }
     &__four{
         &__button{
             background-color: #228b22;
-            color: #ffffff;
+            color: $cb;
         }
     }
 }
 /* main contacto */
 .lista-contacto{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    @include display(center, wrap, none);
     &__h1{
         font-size: 50px;
         margin-top: 50px;
         text-align: center;
-        @include titulos(#8b0000, none, fantasy);
+        @include titulos($color-titulo, none, fantasy);
     }
     &__ul{   
         margin-top: 30px;
         font-size: 25px;
         color: #df731b;
+        list-style: none;
         @include display(space-around,wrap,none);
+        li{
+            margin-right: 20px;
+        }
     }
  }
 
