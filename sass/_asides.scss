@@ -47,20 +47,16 @@
 }
 
 /* footer contacto */
-.lista-contacto{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    &__h1{
-        font-size: 50px;
-        margin-top: 50px;
-        text-align: center;
-        @include titulos(#8b0000, none, fantasy);
-    }
-    &__ul{   
-        margin-top: 30px;
-        font-size: 25px;
-        color: #df731b;
+.menu-contact{
+    &__mapa{
         @include display(space-around,wrap,none);
+        margin-top: 30px;
+        h2{
+            color: #8b0000;
+            font-style: oblique;
+            text-decoration: underline;
+            text-align: center;
+            margin-bottom: 20px;
+        }
     }
- }
+}

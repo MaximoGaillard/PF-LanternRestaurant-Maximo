@@ -1,0 +1,55 @@
+
+
+
+
+/*.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 2.2fr 0.5fr 0.5fr;
+    grid-template-areas: 
+    'header header header'
+    'main main main'
+    'aside aside aside'
+    'footer footer footer';
+}*/
+
+
+
+/* index.html */
+/* header */
+
+
+
+/*.encabezado nav{
+    font-size: 20px;
+}
+.lista-one{
+    display: flex;
+    list-style-type: none;
+}
+.lista-one li{
+    margin-right: 10px;
+}*/
+
+
+
+/* eventos.html */
+/* header */
+
+/* main */
+
+
+/* nosotros.html*/
+
+
+
+
+
+/* menu.html */
+
+
+
+
+/* contacto.html */
+
+

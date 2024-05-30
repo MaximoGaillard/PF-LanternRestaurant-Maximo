@@ -39,6 +39,7 @@
     @include display(space-around,wrap,none);
     h1{
         border: double;
+        margin-top: 20px;
     }
 }
 .imagenes-eventos{
@@ -94,6 +95,7 @@
 .listas{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: stretch;
     margin: 100px;
     &__one{
@@ -122,13 +124,23 @@
     }
 }
 /* main contacto */
-.menu-contact{
-    color: #df731b;
-    font-style: oblique;
-    text-decoration: underline;
-    text-align: center;
-    @include display(space-around,wrap,none);
-}
+.lista-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__h1{
+        font-size: 50px;
+        margin-top: 50px;
+        text-align: center;
+        @include titulos(#8b0000, none, fantasy);
+    }
+    &__ul{   
+        margin-top: 30px;
+        font-size: 25px;
+        color: #df731b;
+        @include display(space-around,wrap,none);
+    }
+ }
 
 
 
